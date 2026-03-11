@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motormed — Kelly Controller Programmer</title>
+  <meta name="description" content="Read, configure, and write your Kelly motor controller over Bluetooth. Available on Android and desktop." />
+  <meta property="og:image" content="logo.svg" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0d0d14;
+      --surface:  #13131f;
+      --border:   #ffffff14;
+      --text:     #e8e8f0;
+      --muted:    #6b6b8a;
+      --accent:   #7c6eff;
+      --danger:   #DE3657;
+      --grad-a:   #46499B;
+      --grad-b:   #DE3657;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 80px 24px 60px;
+      max-width: 640px;
+      gap: 24px;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      filter: drop-shadow(0 0 40px rgba(70,73,155,.5));
+    }
+
+    h1 {
+      font-size: clamp(36px, 6vw, 56px);
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      background: linear-gradient(90deg, var(--grad-a), var(--grad-b));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: var(--muted);
+      line-height: 1.6;
+      max-width: 480px;
+    }
+
+    /* ── Download cards ── */
+    .downloads {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      padding: 0 24px 80px;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .dl-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex: 1 1 240px;
+      max-width: 280px;
+      transition: border-color .2s;
+    }
+    .dl-card:hover { border-color: var(--accent); }
+
+    .dl-icon { font-size: 32px; }
+    .dl-title { font-size: 16px; font-weight: 700; }
+    .dl-sub   { font-size: 12px; color: var(--muted); }
+
+    .dl-btns { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+
+    .btn-dl {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border-radius: 9px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: opacity .15s;
+      color: #fff;
+    }
+    .btn-dl:hover { opacity: .85; }
+    .btn-dl.primary { background: linear-gradient(135deg, var(--grad-a), var(--grad-b)); }
+    .btn-dl.secondary { background: var(--border); color: var(--text); border: 1px solid var(--border); }
+    .btn-dl.disabled { opacity: .35; pointer-events: none; cursor: not-allowed; }
+
+    /* ── Features ── */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      padding: 0 24px 80px;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .feature {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .feature-icon { font-size: 24px; margin-bottom: 10px; }
+    .feature-title { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+    .feature-desc  { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: auto;
+      padding: 24px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+      border-top: 1px solid var(--border);
+      width: 100%;
+    }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <img src="logo.svg" alt="Motormed logo" class="logo" />
+  <h1>Motormed</h1>
+  <p class="tagline">
+    Read, configure, and write your Kelly motor controller over Bluetooth.
+    Works on Android and desktop — Mac &amp; Windows.
+  </p>
+</div>
+
+<div class="downloads">
+
+  <div class="dl-card">
+    <div class="dl-icon">🤖</div>
+    <div class="dl-title">Android</div>
+    <div class="dl-sub">Requires Android 8.0+. Connects via BLE or Classic Bluetooth.</div>
+    <div class="dl-btns">
+      <a class="btn-dl primary"
+         href="https://play.google.com/store/apps/details?id=us.wmwm.motormed"
+         target="_blank" rel="noopener">
+        ▶ Google Play
+      </a>
+    </div>
+  </div>
+
+  <div class="dl-card">
+    <div class="dl-icon"></div>
+    <div class="dl-title">macOS</div>
+    <div class="dl-sub">Apple Silicon and Intel. Unsigned — open with right-click → Open.</div>
+    <div class="dl-btns">
+      <a class="btn-dl primary" id="mac-arm" href="#" data-asset="arm64.dmg">
+        ↓ Apple Silicon (M1/M2/M3)
+      </a>
+      <a class="btn-dl secondary" id="mac-x64" href="#" data-asset="x64.dmg">
+        ↓ Intel (x64)
+      </a>
+    </div>
+  </div>
+
+  <div class="dl-card">
+    <div class="dl-icon">🪟</div>
+    <div class="dl-title">Windows</div>
+    <div class="dl-sub">One-click installer. Windows 10+ x64 and ARM64.</div>
+    <div class="dl-btns">
+      <a class="btn-dl primary" id="win-x64" href="#" data-asset="Setup.exe">
+        ↓ Windows x64
+      </a>
+      <a class="btn-dl secondary" id="win-arm" href="#" data-asset="arm64 Setup.exe">
+        ↓ Windows ARM64
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<div class="features">
+  <div class="feature">
+    <div class="feature-icon">📡</div>
+    <div class="feature-title">Bluetooth LE + Classic</div>
+    <div class="feature-desc">Connects to HM-10, JDY, HC-05/06, and compatible UART modules.</div>
+  </div>
+  <div class="feature">
+    <div class="feature-icon">📖</div>
+    <div class="feature-title">Full Flash Read</div>
+    <div class="feature-desc">Reads all 512 bytes of controller flash and decodes every setting.</div>
+  </div>
+  <div class="feature">
+    <div class="feature-icon">✏️</div>
+    <div class="feature-title">Safe Write</div>
+    <div class="feature-desc">Review your changes before writing. Block-by-block CRC verification.</div>
+  </div>
+  <div class="feature">
+    <div class="feature-icon">📊</div>
+    <div class="feature-title">Live Monitor</div>
+    <div class="feature-desc">Real-time voltage, RPM, temperature, and fault flags while connected.</div>
+  </div>
+  <div class="feature">
+    <div class="feature-icon">🔑</div>
+    <div class="feature-title">All Kelly Variants</div>
+    <div class="feature-desc">Supports KBLS and KACI controller families with auto version detection.</div>
+  </div>
+  <div class="feature">
+    <div class="feature-icon">🔒</div>
+    <div class="feature-title">100% Local</div>
+    <div class="feature-desc">No cloud, no account. Everything runs on your device.</div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 RPRTD &nbsp;·&nbsp; <a href="https://github.com/snooplsm/motormed" target="_blank" rel="noopener">GitHub</a></p>
+</footer>
+
+<script>
+  // Resolve download links from latest GitHub release assets.
+  const REPO = 'snooplsm/motormed';
+  const LATEST_BASE = `https://github.com/${REPO}/releases/latest/download`;
+
+  function setHref(id, href) {
+    const el = document.getElementById(id);
+    if (el && href) el.href = href;
+  }
+
+  function pickAssetUrl(assets, matcher) {
+    const found = assets.find((a) => a && a.name && matcher(a.name.toLowerCase()));
+    return found && found.browser_download_url ? found.browser_download_url : null;
+  }
+
+  async function resolveAssetLinks() {
+    try {
+      const res = await fetch(`https://api.github.com/repos/${REPO}/releases/latest`, {
+        headers: { Accept: 'application/vnd.github+json' }
+      });
+      if (!res.ok) throw new Error(`GitHub API ${res.status}`);
+      const json = await res.json();
+      const assets = Array.isArray(json && json.assets) ? json.assets : [];
+      return {
+        macArm: pickAssetUrl(assets, (n) => n.endsWith('.dmg') && n.includes('arm64')),
+        macX64: pickAssetUrl(assets, (n) => n.endsWith('.dmg') && (n.includes('x64') || n.includes('intel'))),
+        winX64: pickAssetUrl(assets, (n) => n.endsWith('.exe') && !n.includes('arm64')),
+        winArm: pickAssetUrl(assets, (n) => n.endsWith('.exe') && n.includes('arm64'))
+      };
+    } catch (_) {
+      // Fallback keeps links working if GitHub API is unavailable/rate-limited.
+      return {
+        macArm: `${LATEST_BASE}/Motormed-1.0.0-arm64.dmg`,
+        macX64: `${LATEST_BASE}/Motormed-1.0.0.dmg`,
+        winX64: `${LATEST_BASE}/Motormed.Setup.1.0.0.exe`,
+        winArm: null
+      };
+    }
+  }
+
+  (async () => {
+    const links = await resolveAssetLinks();
+    setHref('mac-arm', links.macArm);
+    setHref('mac-x64', links.macX64);
+    setHref('win-x64', links.winX64);
+    setHref('win-arm', links.winArm);
+  })();
+</script>
+
+</body>
+</html>
