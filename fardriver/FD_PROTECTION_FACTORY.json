@@ -1,0 +1,59 @@
+{
+  "schema": "motormed.fardriver.manual.v1",
+  "name": "FarDriver Protection, PID, and Factory Settings",
+  "description": "Protection, temperature, battery, PID, field-weakening, and factory parameters from the public manual. Several temperature and voltage thresholds below are now confirmed from the official Xamarin APK register decode.",
+  "sources": [
+    "https://github.com/jackhumbert/fardriver-controllers",
+    "https://raw.githubusercontent.com/jackhumbert/fardriver-controllers/main/MANUAL.md"
+  ],
+  "flashLayout": {
+    "section": "primary",
+    "byteLength": 384,
+    "offsetStatus": "partial"
+  },
+  "settings": [
+    { "key": "ProtectVoltage", "group": "Battery Protection", "label": "Protect Voltage", "type": "number", "unit": "V", "byteOffset": null, "byteLength": 2, "registerAddress": 30, "packetByteOffset": 2, "scale": 0.1, "offsetStatus": "apk-confirmed-register", "description": "Primary low-voltage protection threshold. Official app decodes `(arg[5]*256 + arg[4]) / 10` from register 30." },
+    { "key": "RecoverVoltage", "group": "Battery Protection", "label": "Recover Voltage", "type": "number", "unit": "V", "byteOffset": null, "byteLength": 2, "registerAddress": 30, "packetByteOffset": 2, "scale": 0.1, "derived": "+2.0V", "offsetStatus": "apk-confirmed-register", "description": "Voltage threshold to resume after low-voltage protection. Official app derives this as low-voltage protect plus 2.0V." },
+    { "key": "ChargeProtectVoltage", "group": "Battery Protection", "label": "Charge Protect Voltage", "type": "number", "unit": "V", "byteOffset": null, "byteLength": 2, "registerAddress": 36, "packetByteOffset": 2, "scale": 0.1, "offsetStatus": "apk-confirmed-register", "description": "High-voltage / charge protection threshold. Official app decodes `(arg[5]*256 + arg[4]) / 10` from register 36." },
+    { "key": "BatterySignalSource", "group": "Battery Protection", "label": "Battery Signal Source", "type": "enum", "options": ["Controller", "BMS", "Display"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Where battery state is sourced from." },
+    { "key": "BatteryPowerFactor", "group": "Battery Protection", "label": "Battery Power Factor", "type": "number", "unit": "%", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Battery power derating factor." },
+    { "key": "BatteryCurrentCorrection", "group": "Battery Protection", "label": "Battery Current Correction", "type": "number", "unit": "%", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Calibration factor for battery current." },
+    { "key": "BatteryOverCurrentProtect", "group": "Battery Protection", "label": "Battery Overcurrent Protect", "type": "number", "unit": "A", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Battery over-current protection threshold." },
+    { "key": "SOCPowerReductionStart", "group": "Battery Protection", "label": "SOC Power Reduction Start", "type": "number", "unit": "%", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "SOC at which power reduction begins." },
+    { "key": "SOCPowerReductionEnd", "group": "Battery Protection", "label": "SOC Power Reduction End", "type": "number", "unit": "%", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "SOC at which the reduction curve reaches minimum power." },
+
+    { "key": "MotorTempProtect", "group": "Temperature Protection", "label": "Motor Temp Protect", "type": "number", "unit": "C", "byteOffset": null, "byteLength": 1, "registerAddress": 130, "packetByteOffset": 4, "offsetStatus": "apk-confirmed-register", "description": "Motor over-temperature cutback or trip point. Official app reads `arg[6]` from register 130." },
+    { "key": "MotorTempRecover", "group": "Temperature Protection", "label": "Motor Temp Recover", "type": "number", "unit": "C", "byteOffset": null, "byteLength": 1, "registerAddress": 130, "packetByteOffset": 5, "offsetStatus": "apk-confirmed-register", "description": "Motor temperature resume point. Official app reads `arg[7]` from register 130." },
+    { "key": "ControllerTempProtect", "group": "Temperature Protection", "label": "Controller Temp Protect", "type": "number", "unit": "C", "byteOffset": null, "byteLength": 1, "registerAddress": 130, "packetByteOffset": 6, "offsetStatus": "apk-confirmed-register", "description": "Controller/MOS temperature protection threshold. Official app reads `arg[8]` from register 130." },
+    { "key": "ControllerTempRecover", "group": "Temperature Protection", "label": "Controller Temp Recover", "type": "number", "unit": "C", "byteOffset": null, "byteLength": 1, "registerAddress": 130, "packetByteOffset": 7, "offsetStatus": "apk-confirmed-register", "description": "Controller/MOS temperature recovery threshold. Official app reads `arg[9]` from register 130." },
+    { "key": "TempCoefficient", "group": "Temperature Protection", "label": "Temperature Coefficient", "type": "number", "byteOffset": null, "byteLength": 2, "registerAddress": 99, "packetByteOffset": 6, "offsetStatus": "apk-confirmed-register", "description": "Temperature compensation coefficient. Official app decodes this from register 99 `(arg[9]*256 + arg[8])`." },
+
+    { "key": "LostThrottleAlarm", "group": "Functional Safety", "label": "Lost Throttle Alarm", "type": "boolean", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Alarm behavior when throttle is lost." },
+    { "key": "ThrottlePlugProtect", "group": "Functional Safety", "label": "Throttle Plug Protection", "type": "boolean", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Protection against unplugged or invalid throttle sensor." },
+    { "key": "ReverseEnable", "group": "Functional Safety", "label": "Reverse Enable", "type": "boolean", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Enable reverse function." },
+    { "key": "SeatBucketDelay", "group": "Functional Safety", "label": "Seat Bucket Delay", "type": "number", "unit": "s", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Delay related to seat-bucket logic from the manual." },
+    { "key": "ParkingDelay", "group": "Functional Safety", "label": "Parking Delay", "type": "number", "unit": "s", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Delay before entering parking state." },
+    { "key": "CruiseEnable", "group": "Functional Safety", "label": "Cruise Enable", "type": "boolean", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Enable or disable cruise function." },
+    { "key": "BoostEnable", "group": "Functional Safety", "label": "Boost Enable", "type": "boolean", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Enable or disable boost mode." },
+
+    { "key": "PID1", "group": "PID Tuning", "label": "PID1", "type": "number", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "PID-related tuning value from the manual." },
+    { "key": "PID2", "group": "PID Tuning", "label": "PID2", "type": "number", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "PID-related tuning value from the manual." },
+    { "key": "PID3", "group": "PID Tuning", "label": "PID3", "type": "number", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "PID-related tuning value from the manual." },
+    { "key": "PID4", "group": "PID Tuning", "label": "PID4", "type": "number", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "PID-related tuning value from the manual." },
+    { "key": "PID5", "group": "PID Tuning", "label": "PID5", "type": "number", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "PID-related tuning value from the manual." },
+    { "key": "PID6", "group": "PID Tuning", "label": "PID6", "type": "number", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "PID-related tuning value from the manual." },
+    { "key": "PID7", "group": "PID Tuning", "label": "PID7", "type": "number", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "PID-related tuning value from the manual." },
+    { "key": "PID8", "group": "PID Tuning", "label": "PID8", "type": "number", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "PID-related tuning value from the manual." },
+
+    { "key": "FieldWeakStart", "group": "Field Weakening", "label": "Field Weakening Start", "type": "number", "unit": "rpm", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Start RPM for field weakening." },
+    { "key": "FieldWeakMax", "group": "Field Weakening", "label": "Field Weakening Max", "type": "number", "unit": "%", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Maximum field weakening level." },
+    { "key": "FieldWeakResponse", "group": "Field Weakening", "label": "Field Weakening Response", "type": "number", "unit": "%", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Response or gain for field weakening." },
+    { "key": "DeepWeakMode", "group": "Field Weakening", "label": "Deep Weak Mode", "type": "boolean", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Deep weak-magnet program / mode." },
+
+    { "key": "FactoryProgramCode", "group": "Factory and Program Flags", "label": "Factory Program Code", "type": "number", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Composite special program code value." },
+    { "key": "HardwareVersion", "group": "Factory and Program Flags", "label": "Hardware Version", "type": "string", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Hardware version letter or code." },
+    { "key": "ExtensionCode", "group": "Factory and Program Flags", "label": "Extension Code", "type": "string", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Encoder / variant extension code." },
+    { "key": "IsolationProgram", "group": "Factory and Program Flags", "label": "Isolation Program", "type": "boolean", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Program bit indicating isolated hardware." },
+    { "key": "HighSpeed120M", "group": "Factory and Program Flags", "label": "120M High-Speed Version", "type": "boolean", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Program bit indicating 120M high-speed version." }
+  ]
+}

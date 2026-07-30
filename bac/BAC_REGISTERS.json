@@ -1,0 +1,7139 @@
+[
+  {
+    "address": 0,
+    "name": "Averaged controller over voltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1,
+    "name": "Averaged phase over current",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 2,
+    "name": "Current sensor calibration",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 3,
+    "name": "Current sensor over current",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 4,
+    "name": "Controller over temperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 5,
+    "name": "Motor Hall sensor fault",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 6,
+    "name": "Averaged controller under voltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 7,
+    "name": "POST static gating test (phase short / damaged drivers)",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 8,
+    "name": "Network communication timeout",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 9,
+    "name": "Instantaneous phase over current",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 10,
+    "name": "Motor over temperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 11,
+    "name": "Throttle voltage outside range",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 12,
+    "name": "Instantaneous controller over voltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 13,
+    "name": "Internal error",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 14,
+    "name": "POST dynamic gating test (damaged drivers)",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 15,
+    "name": "Instantaneous under voltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 256,
+    "name": "rpdo3Map4Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 257,
+    "name": "rpdo3Map4SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 258,
+    "name": "rpdo3Map3Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 259,
+    "name": "rpdo3Map3SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 260,
+    "name": "rpdo3Map2Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 261,
+    "name": "rpdo3Map2SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 262,
+    "name": "rpdo3Map1Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 263,
+    "name": "rpdo3Map1SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 264,
+    "name": "teConfiguration",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 265,
+    "name": "microElectronicsTestRegister",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 266,
+    "name": "mfgTestRegister",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 267,
+    "name": "mfgPotFunctionalTestStationSerialNumber",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 268,
+    "name": "mfgPotBridgeTestStationSerialNumber",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 269,
+    "name": "mfgAsyFunctionalTestStationSerialNumber",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 270,
+    "name": "mfgAsyBridgeTestStationSerialNumber",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 271,
+    "name": "mfgPotSerialNumber2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 272,
+    "name": "mfgPotSerialNumber1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 273,
+    "name": "mfgAsySerialNumber2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 274,
+    "name": "mfgAsySerialNumber1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 275,
+    "name": "mfgPcbaSerialNumber2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 276,
+    "name": "mfgPcbaSerialNumber1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 277,
+    "name": "mfgConfigTestStationSerialNumber",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 278,
+    "name": "mfgLocationCode",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 279,
+    "name": "mfgFlowcheck",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 280,
+    "name": "mfgFirmwareFile",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 281,
+    "name": "mfgCustomerParameterFile",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 282,
+    "name": "productPartNumberRevision",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 283,
+    "name": "productPartNumber",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 284,
+    "name": "mfgFinalTestDate",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 285,
+    "name": "mfgDateFirstPowerOn",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 286,
+    "name": "customerParameter10",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 287,
+    "name": "customerParameter9",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 288,
+    "name": "customerParameter8",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 289,
+    "name": "customerParameter7",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 290,
+    "name": "customerParameter6",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 291,
+    "name": "customerParameter5",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 292,
+    "name": "customerParameter4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 293,
+    "name": "customerParameter3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 294,
+    "name": "customerParameter2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 295,
+    "name": "customerParameter1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 296,
+    "name": "customerParameter12",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 297,
+    "name": "customerParameter11",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 298,
+    "name": "variableLightOutputVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 299,
+    "name": "i2cBusClockRate",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 300,
+    "name": "openPhaseFaultThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 301,
+    "name": "flashParameterReadAccessCode3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 302,
+    "name": "flashParameterReadAccessCode2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 303,
+    "name": "speedCalcThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 304,
+    "name": "encoderOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 305,
+    "name": "encoderCosSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 306,
+    "name": "encoderSineSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 307,
+    "name": "encoderCosLowVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 308,
+    "name": "encoderCosHighVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 309,
+    "name": "encoderSineLowVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 310,
+    "name": "encoderSineHighVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 311,
+    "name": "curregKicc",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 312,
+    "name": "rpmLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 313,
+    "name": "analogBrakeFaultRange",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 314,
+    "name": "analogBrakeDeadbandRange",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 315,
+    "name": "temperatureThresholdCadenceDetection",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 316,
+    "name": "walkModeSpeedRegulatorKi",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 317,
+    "name": "walkModeSpeedRegulatorKp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 318,
+    "name": "motorTempShortDetectWindow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 319,
+    "name": "speedRegulatorKpQ10",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 320,
+    "name": "startingSlopeForDynamicPedalRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 321,
+    "name": "endingSlopeForDynamicPedalRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 322,
+    "name": "walkSpeedRpm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 323,
+    "name": "pedalecDynamicNegativeMinRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 324,
+    "name": "dynamicRampPedalSpeedEnd",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 325,
+    "name": "dynamicRampPedalSpeedStart",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 326,
+    "name": "jisd9115MinimumPedalecAssistanceGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 327,
+    "name": "accelerometerTiltOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 328,
+    "name": "accelerometerTiltSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 329,
+    "name": "accelerometerInclineSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 330,
+    "name": "reverseEnableSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 331,
+    "name": "wheelLockDisableSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 332,
+    "name": "dynameRollingStartAvoidTorque",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 333,
+    "name": "dynameEndingPedalecGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 334,
+    "name": "dynameStartingPedalecGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 335,
+    "name": "endSpeedSetpointPedalacGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 336,
+    "name": "midSpeedSetpointPedalacGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 337,
+    "name": "noDualSpeedPulsesTimeThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 338,
+    "name": "dualSpeedSensorPrimaryPulseSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 339,
+    "name": "torqueSensorVoltageFilter",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 340,
+    "name": "torqueSensorStaticFaultTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 341,
+    "name": "torqueSensorStaticVThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 342,
+    "name": "torqueSensorHighVThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 343,
+    "name": "torqueSensorLowVThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 344,
+    "name": "jisd9115MaximumPedalecAssistanceGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 345,
+    "name": "jisd9115FullAssistanceSpeed",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 346,
+    "name": "jisd9115VehicleMaximumSpeed",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 347,
+    "name": "features3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 348,
+    "name": "accelerometerSidewaysCutoffAngle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 349,
+    "name": "assistSpeed9",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 350,
+    "name": "assistSpeed8",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 351,
+    "name": "assistSpeed7",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 352,
+    "name": "assistSpeed6",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 353,
+    "name": "assistSpeed5",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 354,
+    "name": "assistSpeed4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 355,
+    "name": "assistGain9",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 356,
+    "name": "assistGain8",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 357,
+    "name": "assistGain7",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 358,
+    "name": "assistGain6",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 359,
+    "name": "assistGain5",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 360,
+    "name": "assistGain4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 361,
+    "name": "level2Spare1905",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 362,
+    "name": "level2HwBits",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 363,
+    "name": "spare1903",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 364,
+    "name": "requestedEnding2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 365,
+    "name": "requestedStarting2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 366,
+    "name": "requestedEnding1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 367,
+    "name": "requestedStarting1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 368,
+    "name": "accelerometerAngleOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 369,
+    "name": "accelerometerAngleFilter",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 370,
+    "name": "accelerometerSecondOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 371,
+    "name": "accelerometerFirstOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 372,
+    "name": "accelerometerSecondAngle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 373,
+    "name": "accelerometerFirstAngle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 374,
+    "name": "reservedParameter1892",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 375,
+    "name": "reservedParameter1891",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 376,
+    "name": "reservedParameter1890",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 377,
+    "name": "reservedParameter1889",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 378,
+    "name": "reservedParameter1888",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 379,
+    "name": "reservedParameter1887",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 380,
+    "name": "reservedParameter1886",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 381,
+    "name": "reservedParameter1885",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 382,
+    "name": "reservedParameter1884",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 383,
+    "name": "throttleFilterHighVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 384,
+    "name": "throttleFilterSpeedControl",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 385,
+    "name": "spare1881",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 386,
+    "name": "level1Features",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 387,
+    "name": "tpdo4CobidHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 388,
+    "name": "tpdo4CobidLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 389,
+    "name": "tpdo3CobidHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 390,
+    "name": "tpdo3CobidLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 391,
+    "name": "tpdo2CobidHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 392,
+    "name": "tpdo2CobidLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 393,
+    "name": "tpdo1CobidHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 394,
+    "name": "tpdo1CobidLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 395,
+    "name": "rpdo2CobidHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 396,
+    "name": "rpdo2CobidLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 397,
+    "name": "rpdo1CobidHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 398,
+    "name": "rpdo1CobidLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 399,
+    "name": "spare1867",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 400,
+    "name": "canHeartbeatPeriod",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 401,
+    "name": "canPostSyncLossDelay",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 402,
+    "name": "canPostSleepDelay",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 403,
+    "name": "tpdo4SyncWindow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 404,
+    "name": "tpdo4EventTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 405,
+    "name": "tpdo4TransmissionType",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 406,
+    "name": "tpdo4Size",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 407,
+    "name": "tpdo4Map4Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 408,
+    "name": "tpdo4Map4SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 409,
+    "name": "tpdo4Map3Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 410,
+    "name": "tpdo4Map3SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 411,
+    "name": "tpdo4Map2Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 412,
+    "name": "tpdo4Map2SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 413,
+    "name": "tpdo4Map1Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 414,
+    "name": "tpdo4Map1SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 415,
+    "name": "tpdo3SyncWindow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 416,
+    "name": "tpdo3EventTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 417,
+    "name": "tpdo3TransmissionType",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 418,
+    "name": "tpdo3Size",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 419,
+    "name": "tpdo3Map4Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 420,
+    "name": "tpdo3Map4SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 421,
+    "name": "tpdo3Map3Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 422,
+    "name": "tpdo3Map3SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 423,
+    "name": "tpdo3Map2Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 424,
+    "name": "tpdo3Map2SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 425,
+    "name": "tpdo3Map1Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 426,
+    "name": "tpdo3Map1SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 427,
+    "name": "tpdo2SyncWindow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 428,
+    "name": "tpdo2EventTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 429,
+    "name": "tpdo2TransmissionType",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 430,
+    "name": "tpdo2Size",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 431,
+    "name": "tpdo2Map4Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 432,
+    "name": "tpdo2Map4SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 433,
+    "name": "tpdo2Map3Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 434,
+    "name": "tpdo2Map3SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 435,
+    "name": "tpdo2Map2Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 436,
+    "name": "tpdo2Map2SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 437,
+    "name": "tpdo2Map1Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 438,
+    "name": "tpdo2Map1SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 439,
+    "name": "tpdo1SyncWindow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 440,
+    "name": "tpdo1EventTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 441,
+    "name": "tpdo1TransmissionType",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 442,
+    "name": "tpdo1Size",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 443,
+    "name": "tpdo1Map4Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 444,
+    "name": "tpdo1Map4SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 445,
+    "name": "tpdo1Map3Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 446,
+    "name": "tpdo1Map3SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 447,
+    "name": "tpdo1Map2Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 448,
+    "name": "tpdo1Map2SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 449,
+    "name": "tpdo1Map1Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 450,
+    "name": "tpdo1Map1SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 451,
+    "name": "spare1815",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 452,
+    "name": "rpdo2Timeout",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 453,
+    "name": "rpdo2TransmissionType",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 454,
+    "name": "rpdo2Size",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 455,
+    "name": "rpdo2Map4Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 456,
+    "name": "rpdo2Map4SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 457,
+    "name": "rpdo2Map3Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 458,
+    "name": "rpdo2Map3SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 459,
+    "name": "rpdo2Map2Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 460,
+    "name": "rpdo2Map2SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 461,
+    "name": "rpdo2Map1Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 462,
+    "name": "rpdo2Map1SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 463,
+    "name": "spare1803",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 464,
+    "name": "rpdo1Timeout",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 465,
+    "name": "rpdo1TransmissionType",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 466,
+    "name": "rpdo1Size",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 467,
+    "name": "rpdo1Map4Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 468,
+    "name": "rpdo1Map4SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 469,
+    "name": "rpdo1Map3Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 470,
+    "name": "rpdo1Map3SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 471,
+    "name": "rpdo1Map2Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 472,
+    "name": "rpdo1Map2SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 473,
+    "name": "rpdo1Map1Index",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 474,
+    "name": "rpdo1Map1SubIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 475,
+    "name": "paramLvl3CrcLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 476,
+    "name": "paramLvl3CrcHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 477,
+    "name": "paramLvl2CrcLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 478,
+    "name": "paramLvl2CrcHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 479,
+    "name": "paramLvl1CrcLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 480,
+    "name": "paramLvl1CrcHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 481,
+    "name": "paramLvl0CrcLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 482,
+    "name": "paramLvl0CrcHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 483,
+    "name": "vars21715",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 484,
+    "name": "vars21714",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 485,
+    "name": "i2cData",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 486,
+    "name": "i2cCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 487,
+    "name": "i2cAddress",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 488,
+    "name": "parameterAccessCode3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 489,
+    "name": "parameterAccessCode2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 490,
+    "name": "parameterReadAccessCode3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 491,
+    "name": "parameterReadAccessCode2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 492,
+    "name": "sectorGFlashStatus",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 493,
+    "name": "sectorHFlashStatus",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 494,
+    "name": "remotePowerLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 495,
+    "name": "powerboardTemperatureHr",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 496,
+    "name": "motorTemperatureHr",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 497,
+    "name": "batteryTemperatureOffsetQ4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 498,
+    "name": "dspCoreTemperatureQ4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 499,
+    "name": "dynamicFlashSavedVar10",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 500,
+    "name": "dynamicFlashSavedVar9",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 501,
+    "name": "faults2Log",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 502,
+    "name": "faultsLog",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 503,
+    "name": "dynamicFlashPacketCount",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 504,
+    "name": "bootCount",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 505,
+    "name": "powerOnTimeHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 506,
+    "name": "powerOnTimeLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 507,
+    "name": "odometerHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 508,
+    "name": "odometerLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 509,
+    "name": "flashSectorTracker",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 510,
+    "name": "vars21688",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 511,
+    "name": "vars21687",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 512,
+    "name": "vars21686",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 513,
+    "name": "vars21685",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 514,
+    "name": "vars21684",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 515,
+    "name": "motorDiscoverySpeed",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 516,
+    "name": "remoteRegenFoldback",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 517,
+    "name": "remoteMotoringFoldback",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 518,
+    "name": "remoteMaximumBrakingRuntime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 519,
+    "name": "testBuild",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 520,
+    "name": "vehicleMaximumSpeedLive",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 521,
+    "name": "remoteSpeedRpm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 522,
+    "name": "canAutoId",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 523,
+    "name": "liveSpeedKi",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 524,
+    "name": "liveSpeedKp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 525,
+    "name": "ptable10",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 526,
+    "name": "ptable9",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 527,
+    "name": "ptable8",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 528,
+    "name": "ptable7",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 529,
+    "name": "ptable6",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 530,
+    "name": "ptable5",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 531,
+    "name": "ptable4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 532,
+    "name": "ptable3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 533,
+    "name": "ptable2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 534,
+    "name": "ptable1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 535,
+    "name": "saveParameters",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 536,
+    "name": "loadFirmware",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 537,
+    "name": "parameterAccessCode1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 538,
+    "name": "faultClear",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 539,
+    "name": "armDatalogger",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 540,
+    "name": "remoteAssistMode",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 541,
+    "name": "remoteLightSensorVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 542,
+    "name": "remoteBatteryTemperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 543,
+    "name": "remoteBatterySoc",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 544,
+    "name": "displayWalkStatus",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 545,
+    "name": "displayAssistLevel",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 546,
+    "name": "displaySpeedLimitCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 547,
+    "name": "bidirectionalTorqueCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 548,
+    "name": "parameterReadAccessCode1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 549,
+    "name": "remoteAnalogBrakeVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 550,
+    "name": "remoteDigitalCommands",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 551,
+    "name": "remoteThrottleVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 552,
+    "name": "remoteTorqueCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 553,
+    "name": "remoteStateCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 554,
+    "name": "remoteMaximumBrakingCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 555,
+    "name": "remoteMaximumMotoringCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 556,
+    "name": "remoteSpeedCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 557,
+    "name": "doNotUse4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 558,
+    "name": "ebikeFlags2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 559,
+    "name": "debugCmd2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 560,
+    "name": "debugCmd1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 561,
+    "name": "openLoopAngle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 562,
+    "name": "openLoopFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 563,
+    "name": "openLoopCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 564,
+    "name": "openLoopModulation",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 565,
+    "name": "motorDiscoverMode",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 566,
+    "name": "testMode",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 567,
+    "name": "brakeLightPwm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 568,
+    "name": "runningLightPwm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 569,
+    "name": "appliedTorqueCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 570,
+    "name": "stateCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 571,
+    "name": "maximumBrakingCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 572,
+    "name": "maximumMotoringCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 573,
+    "name": "speedCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 574,
+    "name": "otpSerialNumber7",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 575,
+    "name": "otpSerialNumber6",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 576,
+    "name": "otpSerialNumber5",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 577,
+    "name": "otpSerialNumber4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 578,
+    "name": "otpSerialNumber3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 579,
+    "name": "otpSerialNumber2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 580,
+    "name": "otpSerialNumber1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 581,
+    "name": "otpSerialNumber0",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 582,
+    "name": "rollingStartSpeedAssistMode",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 583,
+    "name": "axleTorqueSensorAssist",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 584,
+    "name": "autotuneRatedRpm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 585,
+    "name": "autotuneKv",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 586,
+    "name": "autotuneHallOffsetAngle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 587,
+    "name": "averageBackgroundPeriod",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 588,
+    "name": "peakBackgroundPeriod",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 589,
+    "name": "regenLimitPrefoldback",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 590,
+    "name": "motoringLimitPrefoldback",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 591,
+    "name": "siliconVersion",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 592,
+    "name": "applicationCrc32LowWord",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 593,
+    "name": "applicationCrc32HighWord",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 594,
+    "name": "bootloaderCrc32LowWord",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 595,
+    "name": "bootloaderCrc32HighWord",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 596,
+    "name": "userAccessLevel",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 597,
+    "name": "parameterCrc32LowWord",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 598,
+    "name": "parameterCrc32HighWord",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 599,
+    "name": "autotuneHallSector7",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 600,
+    "name": "autotuneHallSector6",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 601,
+    "name": "autotuneHallSector5",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 602,
+    "name": "autotuneHallSector4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 603,
+    "name": "autotuneHallSector3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 604,
+    "name": "autotuneHallSector2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 605,
+    "name": "autotuneHallSector1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 606,
+    "name": "autotuneHallSector0",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 607,
+    "name": "pwmCmdCPwm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 608,
+    "name": "pwmCmdBPwm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 609,
+    "name": "pwmCmdAPwm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 610,
+    "name": "modulationIndex",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 611,
+    "name": "iqTrimQ12",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 612,
+    "name": "icRms",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 613,
+    "name": "iaRms",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 614,
+    "name": "flashParameterCycleCounter",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 615,
+    "name": "combinedMotorThermalFoldback",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 616,
+    "name": "digitalInputs2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 617,
+    "name": "ratedElectricalFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 618,
+    "name": "puLs",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 619,
+    "name": "puRs",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 620,
+    "name": "autotuneLs",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 621,
+    "name": "autotuneRs",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 622,
+    "name": "autotuneLm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 623,
+    "name": "idRefFdfwd",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 624,
+    "name": "idRefTrim",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 625,
+    "name": "dLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 626,
+    "name": "qLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 627,
+    "name": "hallFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 628,
+    "name": "lastFaults2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 629,
+    "name": "hallAngle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 630,
+    "name": "pllReferenceAngle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 631,
+    "name": "rotorFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 632,
+    "name": "pllIntegral",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 633,
+    "name": "pllProportional",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 634,
+    "name": "pllFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 635,
+    "name": "pllError",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 636,
+    "name": "pllAngle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 637,
+    "name": "pedalecTimeoutDelay",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 638,
+    "name": "tripMeter",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 639,
+    "name": "wheelPulseCounter",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 640,
+    "name": "doNotUse3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 641,
+    "name": "doNotUse2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 642,
+    "name": "doNotUse1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 643,
+    "name": "parameterWriteAccessCode",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 644,
+    "name": "debug2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 645,
+    "name": "debug1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 646,
+    "name": "puLm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 647,
+    "name": "motorTemperatureSensorVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 648,
+    "name": "calculatedBatteryCurrentBrakingLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 649,
+    "name": "calculatedBatteryCurrentMotoringLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 650,
+    "name": "instantaneousOpenLoopAngle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 651,
+    "name": "fluxAngle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 652,
+    "name": "fluxMagnitude",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 653,
+    "name": "fluxFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 654,
+    "name": "fluxBeta",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 655,
+    "name": "fluxAlpha",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 656,
+    "name": "statorCurrentBeta",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 657,
+    "name": "statorCurrentAlpha",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 658,
+    "name": "batteryNegativeFoldbackCurrentLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 659,
+    "name": "batteryPositiveFoldbackCurrentLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 660,
+    "name": "maximumMeasurableVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 661,
+    "name": "maximumMeasurableCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 662,
+    "name": "qAxisCurrentReference",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 663,
+    "name": "dAxisCurrentReference",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 664,
+    "name": "qAxisCurrentFeedback",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 665,
+    "name": "dAxisCurrentFeedback",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 666,
+    "name": "batteryI2tFoldbackGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 667,
+    "name": "qAxisLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 668,
+    "name": "qAxisCurrentProportionalTerm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 669,
+    "name": "dAxisCurrentProportionalTerm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 670,
+    "name": "qAxisCurrentError",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 671,
+    "name": "dAxisCurrentError",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 672,
+    "name": "qAxisCurrentOutput",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 673,
+    "name": "dAxisCurrentOutput",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 674,
+    "name": "qAxisCurrentIntegralTerm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 675,
+    "name": "dAxisCurrentIntegralTerm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 676,
+    "name": "speedRegulatorProportionalTerm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 677,
+    "name": "speedRegulatorErrorTerm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 678,
+    "name": "speedRegulatorOutput",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 679,
+    "name": "speedRegulatorIntegralTerm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 680,
+    "name": "customCodeExecutionTime11",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 681,
+    "name": "customCodeCrcLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 682,
+    "name": "customCodeCrcHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 683,
+    "name": "executionTime11",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 684,
+    "name": "remoteMaximumRegenBatteryCurrentLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 685,
+    "name": "remoteMaximumBatteryCurrentLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 686,
+    "name": "warnings2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 687,
+    "name": "executionTime7",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 688,
+    "name": "executionTime6",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 689,
+    "name": "executionTime5",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 690,
+    "name": "executionTime4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 691,
+    "name": "executionTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 692,
+    "name": "averageExecutionTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 693,
+    "name": "peakExecutionTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 694,
+    "name": "peakIsrExecutionTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 695,
+    "name": "currentIsrExecutionTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 696,
+    "name": "axleTorqueSensorOffsetVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 697,
+    "name": "qFeedbackAvg",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 698,
+    "name": "dFeedbackAvg",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 699,
+    "name": "filteredQAxisVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 700,
+    "name": "filteredDAxisVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 701,
+    "name": "reserved344",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 702,
+    "name": "modbus2HwErrors",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 703,
+    "name": "modbus2CrcErrorCount",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 704,
+    "name": "modbus1HwErrors",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 705,
+    "name": "modbus1CrcErrorCount",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 706,
+    "name": "assistLevel",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 707,
+    "name": "pedalSpeedGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 708,
+    "name": "speedLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 709,
+    "name": "torqueReference",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 710,
+    "name": "requestedTorqueCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 711,
+    "name": "motorInputPower",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 712,
+    "name": "regenPhaseCurrentLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 713,
+    "name": "averagePedalTorque",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 714,
+    "name": "averagePedalSpeed",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 715,
+    "name": "sensorlessState",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 716,
+    "name": "assistSpeedLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 717,
+    "name": "instantaneousPedalSpeed",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 718,
+    "name": "ebikeFlags",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 719,
+    "name": "brakeSetpoint",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 720,
+    "name": "throttleSetpoint",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 721,
+    "name": "lowSocFoldbackGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 722,
+    "name": "motoringPhaseCurrentLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 723,
+    "name": "speedLimiterOutput",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 724,
+    "name": "inverterTemperatureFoldbackGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 725,
+    "name": "motorTemperatureFoldbackGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 726,
+    "name": "motorI2tFoldbackGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 727,
+    "name": "phaseMotoringCurrentPowerLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 728,
+    "name": "lowVoltageFoldbackGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 729,
+    "name": "phaseCCurrentSensorOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 730,
+    "name": "phaseACurrentSensorOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 731,
+    "name": "localPowerLimitCommand",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 732,
+    "name": "measuredWheelRpm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 733,
+    "name": "motorWheelRpm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 734,
+    "name": "speedSensorWheelRpm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 735,
+    "name": "highVoltageFoldbackGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 736,
+    "name": "phaseRegenCurrentPowerLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 737,
+    "name": "postStaticPhaseWOpenVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 738,
+    "name": "postStaticPhaseVOpenVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 739,
+    "name": "postStaticPhaseUOpenVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 740,
+    "name": "postDynamicPhaseWLowVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 741,
+    "name": "postDynamicPhaseWHighVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 742,
+    "name": "postDynamicPhaseVLowVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 743,
+    "name": "postDynamicPhaseVHighVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 744,
+    "name": "postDynamicPhaseULowVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 745,
+    "name": "postDynamicPhaseUHighVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 746,
+    "name": "faults2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 747,
+    "name": "overloadAccumulator",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 748,
+    "name": "icPu",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 749,
+    "name": "iaPu",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 750,
+    "name": "digitalOutputs",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 751,
+    "name": "instantaneousPhaseCVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 752,
+    "name": "instantaneousPhaseBVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 753,
+    "name": "instantaneousPhaseAVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 754,
+    "name": "rawBatteryVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 755,
+    "name": "highSocFoldbackGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 756,
+    "name": "twelveVoltSupplyVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 757,
+    "name": "bootloaderSoftwareVersion",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 758,
+    "name": "phaseCVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 759,
+    "name": "phaseBVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 760,
+    "name": "phaseAVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 761,
+    "name": "phaseCCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 762,
+    "name": "phaseBCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 763,
+    "name": "phaseACurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 764,
+    "name": "dspCoreTemperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 765,
+    "name": "batteryPowerPercent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 766,
+    "name": "batteryTemperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 767,
+    "name": "motorElectricalPosition",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 768,
+    "name": "warnings",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 769,
+    "name": "digitalInputs",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 770,
+    "name": "analogBmsSocVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 771,
+    "name": "lightSensorVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 772,
+    "name": "rawPowerboardTemperatureSensorVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 773,
+    "name": "brake2Voltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 774,
+    "name": "brake1Voltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 775,
+    "name": "throttleVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 776,
+    "name": "lastFault",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 777,
+    "name": "batteryPower",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 790,
+    "name": "canSyncLossTimeout",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 791,
+    "name": "speedLimitRampTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 792,
+    "name": "assistGainWalk",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 793,
+    "name": "vehicleJogSpeed2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 794,
+    "name": "assistSpeed3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 795,
+    "name": "assistGain3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 796,
+    "name": "regenBrakeSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 797,
+    "name": "cutoffBrakeSensorSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 798,
+    "name": "throttleSensorSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 799,
+    "name": "assistSpeed2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 800,
+    "name": "assistGain2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 801,
+    "name": "digitalThrottleSensorSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 802,
+    "name": "voltageThresholdSingleSpeedTemperatureSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 803,
+    "name": "torqueSensorVoltageSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 804,
+    "name": "assistSpeed1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 805,
+    "name": "modelDictionaryNumberHigh",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 806,
+    "name": "modelDictionaryNumberLow",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 807,
+    "name": "mfgBarcodeType",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 808,
+    "name": "mfgFlowCheck",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 809,
+    "name": "vehicleMaximumSpeedStreetModeThrottle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 810,
+    "name": "pedalSenseDelay",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 811,
+    "name": "pedalSpeedSensorPulsesPerRevolution",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 812,
+    "name": "pedalecMaximumTimeout",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 813,
+    "name": "pedalecMinimumTimeout",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 814,
+    "name": "wheelSpeedSensorPulsesPerRevolution",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 815,
+    "name": "vehicleJogSpeed",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 816,
+    "name": "vehicleMaximumSpeedRaceModeThrottle",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 817,
+    "name": "assistCutOutDistance",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 818,
+    "name": "wheelDiameter",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 819,
+    "name": "gearRatio",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 820,
+    "name": "negativeBrakingTorqueRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 821,
+    "name": "positiveBrakingTorqueRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 822,
+    "name": "pedalecNegativeMotoringTorqueRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 823,
+    "name": "pedalecPositiveMotoringTorqueRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 824,
+    "name": "negativeMotoringTorqueRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 825,
+    "name": "positiveMotoringTorqueRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 826,
+    "name": "assistGain1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 827,
+    "name": "assistLowVoltageReading",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 828,
+    "name": "assistHighVoltageReading",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 829,
+    "name": "analogBrakeOffVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 830,
+    "name": "analogBrakeFullVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 831,
+    "name": "throttleOffVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 832,
+    "name": "throttleFullVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 833,
+    "name": "features",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 834,
+    "name": "pedalSensorType",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 835,
+    "name": "assistModeSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 836,
+    "name": "batteryManagementInterfaceType",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 837,
+    "name": "controlCommandSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 838,
+    "name": "customerReserved207",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 839,
+    "name": "regenBrakeSpeed",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 840,
+    "name": "rollingStartSpeed",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 841,
+    "name": "rollingStartSpeed3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 842,
+    "name": "rollingStartSpeed2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 843,
+    "name": "rollingStartSpeed1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 844,
+    "name": "axleTorqueSensor3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 845,
+    "name": "axleTorqueSensor2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 846,
+    "name": "axleTorqueSensor1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 847,
+    "name": "voltageModelSocOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 848,
+    "name": "voltageModelSocGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 849,
+    "name": "lowBatterySocAlarmThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 850,
+    "name": "highBatteryFoldbackEndVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 851,
+    "name": "highBatteryFoldbackStartingVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 852,
+    "name": "wheelSpeedSensorSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 853,
+    "name": "datalogTriggerMode",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 854,
+    "name": "datalogTimebase",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 855,
+    "name": "datalogHoldOff",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 856,
+    "name": "datalogTriggerMask",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 857,
+    "name": "datalogTriggerLevel",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 858,
+    "name": "datalogChannel4Select",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 859,
+    "name": "datalogChannel3Select",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 860,
+    "name": "datalogChannel2Select",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 861,
+    "name": "datalogChannel1Select",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 862,
+    "name": "torqueSensorGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 863,
+    "name": "torqueSensorOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 864,
+    "name": "pedalecDeadbandTorque",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 865,
+    "name": "pedalecInitialTorque",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 866,
+    "name": "pedalecPowerGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 867,
+    "name": "pedalecTorqueSymmetry",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 868,
+    "name": "engineBrakingTorque",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 869,
+    "name": "pedalSpeedMapEnd",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 870,
+    "name": "pedalSpeedMapOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 871,
+    "name": "features2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 872,
+    "name": "minimumMotoringTorque",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 873,
+    "name": "powerMapSpeedSetpoint8",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 874,
+    "name": "powerMapSpeedSetpoint7",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 875,
+    "name": "powerMapSpeedSetpoint6",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 876,
+    "name": "powerMapSpeedSetpoint5",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 877,
+    "name": "powerMapSpeedSetpoint4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 878,
+    "name": "powerMapSpeedSetpoint3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 879,
+    "name": "powerMapSpeedSetpoint2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 880,
+    "name": "powerMapSpeedSetpoint1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 881,
+    "name": "powerMapWattSetpoint8",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 882,
+    "name": "powerMapWattSetpoint7",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 883,
+    "name": "powerMapWattSetpoint6",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 884,
+    "name": "powerMapWattSetpoint5",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 885,
+    "name": "powerMapWattSetpoint4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 886,
+    "name": "powerMapWattSetpoint3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 887,
+    "name": "powerMapWattSetpoint2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 888,
+    "name": "powerMapWattSetpoint1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 889,
+    "name": "regenBatteryCurrentLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 890,
+    "name": "batteryCurrentLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 891,
+    "name": "maximumBrakingTorque",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 892,
+    "name": "reserved153",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 893,
+    "name": "throttleFaultRange",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 894,
+    "name": "throttleDeadbandThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 895,
+    "name": "averageUnderVoltageThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 896,
+    "name": "averageOverVoltageThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 897,
+    "name": "instantaneousUnderVoltageThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 898,
+    "name": "instantaneousOverVoltageThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 899,
+    "name": "lowBatterySocFoldbackEnd",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 900,
+    "name": "lowBatterySocFoldbackStart",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 901,
+    "name": "coldBatteryFoldbackEndTemperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 902,
+    "name": "coldBatteryFoldbackStartTemperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 903,
+    "name": "lowBatteryVoltageFoldbackEndVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 904,
+    "name": "lowBatteryVoltageFoldbackStartVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 905,
+    "name": "alternateSpeedLimitSwitchSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 906,
+    "name": "alternatePowerSwitchSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 907,
+    "name": "walkModeSignalSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 908,
+    "name": "motorTemperatureSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 909,
+    "name": "batteryRegenHighSocFoldbackEnd",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 910,
+    "name": "batteryRegenHighSocFoldbackStart",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 911,
+    "name": "pedalecSensorlessClosedLoopEnableFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 912,
+    "name": "pedalecSensorlessOpenLoopFreqRampTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 913,
+    "name": "pedalecSensorlessOpenLoopStartingCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 914,
+    "name": "ratedMotorPowerStreetModeThrottlePower",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 915,
+    "name": "flashParameterWriteAccessCode",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 916,
+    "name": "maximumFieldWeakeningCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 917,
+    "name": "hallInterpolationTransitions",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 918,
+    "name": "motorFeatures",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 919,
+    "name": "bluetoothTestParameter",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 920,
+    "name": "customerParameterVersion",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 921,
+    "name": "vehicleMaximumSpeedRaceModePas",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 922,
+    "name": "vehicleMaximumSpeedStreetModePas",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 923,
+    "name": "ratedMotorPowerRaceModePasPower",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 924,
+    "name": "ratedMotorPowerStreetModePasPower",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 925,
+    "name": "batteryAssistLowerRange",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 926,
+    "name": "startFreeWheelHallTransitions",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 927,
+    "name": "speedModeRegenRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 928,
+    "name": "throttleSensitivityMotorSpeed",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 929,
+    "name": "speedModePositiveAccelerationRamp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 930,
+    "name": "singlePushAssistBoostTimer",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 931,
+    "name": "singlePushAssistSource",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 932,
+    "name": "displayLanguage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 933,
+    "name": "batteryUpperRange",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 934,
+    "name": "sensorlessOpenLoopDcCurrentHoldTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 935,
+    "name": "sensorlessOpenLoopFreqRampTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 936,
+    "name": "sensorlessClosedLoopEnableFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 937,
+    "name": "sensorlessOpenLoopInjectionCurrentRampTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 938,
+    "name": "sensorlessOpenLoopStartingCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 939,
+    "name": "overloadFoldbackEnd",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 940,
+    "name": "overloadFoldbackStart",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 941,
+    "name": "overloadCoolingTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 942,
+    "name": "overloadCoolingCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 943,
+    "name": "overloadHeatingTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 944,
+    "name": "overloadHeatingCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 945,
+    "name": "overloadContinousCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 946,
+    "name": "temperatureFeedback125C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 947,
+    "name": "temperatureFeedback100C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 948,
+    "name": "temperatureFeedback75C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 949,
+    "name": "temperatureFeedback50C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 950,
+    "name": "temperatureFeedback25C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 951,
+    "name": "temperatureFeedback0C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 952,
+    "name": "motorFoldbackEndingTemperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 953,
+    "name": "motorFoldbackStartingTemperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 954,
+    "name": "motorOverTemperatureTripThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 955,
+    "name": "hallInterpolationStopFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 956,
+    "name": "hallInterpolationStartFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 957,
+    "name": "hallSector7",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 958,
+    "name": "hallSector6",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 959,
+    "name": "hallSector5",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 960,
+    "name": "hallSector4",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 961,
+    "name": "hallSector3",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 962,
+    "name": "hallSector2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 963,
+    "name": "hallSector1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 964,
+    "name": "hallSector0",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 965,
+    "name": "hallOffset",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 966,
+    "name": "polePairs",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 967,
+    "name": "motorPositionSensorType",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 968,
+    "name": "displayProtocol2",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 969,
+    "name": "rs",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 970,
+    "name": "ls",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 971,
+    "name": "ratedMotorPowerRaceModeThrottlePower",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 972,
+    "name": "ratedMotorSpeed",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 973,
+    "name": "ratedMotorCurrent",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 974,
+    "name": "ratedSystemVoltage",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 975,
+    "name": "lm",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 976,
+    "name": "kpAntiTheft",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 977,
+    "name": "parameterUpdateSoftwareVersion",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 978,
+    "name": "displayProtocol",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 979,
+    "name": "port2SlaveId",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 980,
+    "name": "port2BaudRate",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 981,
+    "name": "hallStallFaultTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 982,
+    "name": "flashParameterReadAccessCode1",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 983,
+    "name": "newPhaseCCurrentGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 984,
+    "name": "newPhaseACurrentGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 985,
+    "name": "batteryResistance",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 986,
+    "name": "communicationsConfigurationVector",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 987,
+    "name": "canId",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 988,
+    "name": "canBaudRate",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 989,
+    "name": "pllKi",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 990,
+    "name": "pllKp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 991,
+    "name": "pllDamping",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 992,
+    "name": "pllBandwidth",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 993,
+    "name": "currentRegulatorBandwidth",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 994,
+    "name": "remoteCommLossBrakingCurrentLimit",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 995,
+    "name": "averageCommandTimeoutThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 996,
+    "name": "postDynamicVoltageTestLimits",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 997,
+    "name": "postStaticVoltageTestLimits",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 998,
+    "name": "kdAntiTheft",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 999,
+    "name": "antitheftEnableTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1000,
+    "name": "smtSerialNumber",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1001,
+    "name": "smtDatecode",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1002,
+    "name": "controllerTemperatureFeedback125C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1003,
+    "name": "controllerTemperatureFeedback100C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1004,
+    "name": "controllerTemperatureFeedback75C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1005,
+    "name": "controllerTemperatureFeedback50C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1006,
+    "name": "controllerTemperatureFeedback25C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1007,
+    "name": "controllerTemperatureFeedback0C",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1008,
+    "name": "controllerFoldbackEndingTemperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1009,
+    "name": "controllerFoldbackStartingTemperature",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1010,
+    "name": "heatsinkOverTemperatureTripThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1011,
+    "name": "dcVoltageTripClearHysterisis",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1012,
+    "name": "commandTimeoutThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1013,
+    "name": "maximumInterruptExecutionTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1014,
+    "name": "phaseCurrentRmsFilterShift",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1015,
+    "name": "instantaneousOverCurrentTripThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1016,
+    "name": "averagedOverCurrentTripSampleLength",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1017,
+    "name": "averagedOverCurrentTripThreshold",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1018,
+    "name": "voltageFeedbackFilterCutoffFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1019,
+    "name": "fluxFrequencyFilterShift",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1020,
+    "name": "fluxHpfShift",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1021,
+    "name": "fluxFilterShift",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1022,
+    "name": "dqAxisFilterShift",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1023,
+    "name": "temperatureFilterShift",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1024,
+    "name": "dcVoltageFilterShift",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1025,
+    "name": "bmsGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1026,
+    "name": "brakeGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1027,
+    "name": "throttleGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1028,
+    "name": "phaseCCurrentGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1029,
+    "name": "voltageGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1030,
+    "name": "phaseACurrentGain",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1031,
+    "name": "pllKiOld",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1032,
+    "name": "pllKpOld",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1033,
+    "name": "speedRegulatorMode",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1034,
+    "name": "speedRegulatorKi",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1035,
+    "name": "speedRegulatorKp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1036,
+    "name": "currentRegulatorKi",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1037,
+    "name": "currentRegulatorKp",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1038,
+    "name": "hwConfigurationVector",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1039,
+    "name": "slaveId",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1040,
+    "name": "baudRate",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1041,
+    "name": "deadTime",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1042,
+    "name": "switchingFrequency",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1043,
+    "name": "inputVoltageRating",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  },
+  {
+    "address": 1044,
+    "name": "outputCurrentRating",
+    "format": "s16",
+    "byteLength": 2,
+    "min": "",
+    "max": "",
+    "description": "BAC register from BAC.md map"
+  }
+]
