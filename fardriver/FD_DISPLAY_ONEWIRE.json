@@ -1,0 +1,44 @@
+{
+  "schema": "motormed.fardriver.manual.v1",
+  "name": "FarDriver Display and One-Line Settings",
+  "description": "FarDriver display, one-line meter, and vehicle-side settings from the public manual. Several one-line and wheel settings below are now confirmed from the official Xamarin APK register decode.",
+  "sources": [
+    "https://github.com/jackhumbert/fardriver-controllers",
+    "https://raw.githubusercontent.com/jackhumbert/fardriver-controllers/main/MANUAL.md"
+  ],
+  "flashLayout": {
+    "section": "secondary",
+    "byteLength": 312,
+    "offsetStatus": "partial"
+  },
+  "settings": [
+    { "key": "SpecialFrame", "group": "One-Line Meter", "label": "Special Frame", "type": "enum", "options": ["Disabled", "Enabled"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Special one-line frame enablement." },
+    { "key": "PulseCount", "group": "One-Line Meter", "label": "Pulse Count", "type": "number", "unit": "pulses", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Meter pulse count / wheel pulse setting." },
+    { "key": "SQH", "group": "One-Line Meter", "label": "SQH", "type": "number", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Manual-listed one-line parameter, meaning still needs confirmation from dumps." },
+    { "key": "Data0", "group": "One-Line Meter", "label": "Data0", "type": "enum", "options": ["Unused", "Speed", "Voltage", "Current", "Power"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Displayed metric slot 0." },
+    { "key": "Data1", "group": "One-Line Meter", "label": "Data1", "type": "enum", "options": ["Unused", "Speed", "Voltage", "Current", "Power"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Displayed metric slot 1." },
+    { "key": "Sec0", "group": "One-Line Meter", "label": "Secondary Slot 0", "type": "enum", "options": ["Unused", "SOC", "Odometer", "Trip", "RPM"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "One-line meter secondary display slot." },
+    { "key": "Sec1", "group": "One-Line Meter", "label": "Secondary Slot 1", "type": "enum", "options": ["Unused", "SOC", "Odometer", "Trip", "RPM"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "One-line meter secondary display slot." },
+    { "key": "Sec2", "group": "One-Line Meter", "label": "Secondary Slot 2", "type": "enum", "options": ["Unused", "SOC", "Odometer", "Trip", "RPM"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "One-line meter secondary display slot." },
+    { "key": "Sec3", "group": "One-Line Meter", "label": "Secondary Slot 3", "type": "enum", "options": ["Unused", "SOC", "Odometer", "Trip", "RPM"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "One-line meter secondary display slot." },
+    { "key": "Sec4", "group": "One-Line Meter", "label": "Secondary Slot 4", "type": "enum", "options": ["Unused", "SOC", "Odometer", "Trip", "RPM"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "One-line meter secondary display slot." },
+    { "key": "Sec5", "group": "One-Line Meter", "label": "Secondary Slot 5", "type": "enum", "options": ["Unused", "SOC", "Odometer", "Trip", "RPM"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "One-line meter secondary display slot." },
+    { "key": "Sec6", "group": "One-Line Meter", "label": "Secondary Slot 6", "type": "enum", "options": ["Unused", "SOC", "Odometer", "Trip", "RPM"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "One-line meter secondary display slot." },
+    { "key": "Sec7", "group": "One-Line Meter", "label": "Secondary Slot 7", "type": "enum", "options": ["Unused", "SOC", "Odometer", "Trip", "RPM"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "One-line meter secondary display slot." },
+    { "key": "Data9", "group": "One-Line Meter", "label": "Data9", "type": "enum", "options": ["Unused", "Temperature", "Motor Temp", "Controller Temp", "Fault"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Additional display slot selection." },
+    { "key": "Data10", "group": "One-Line Meter", "label": "Data10", "type": "enum", "options": ["Unused", "Temperature", "Motor Temp", "Controller Temp", "Fault"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Additional display slot selection." },
+
+    { "key": "PPosition", "group": "Vehicle Inputs", "label": "P Position", "type": "enum", "options": ["Disabled", "Input 1", "Input 2", "Input 3"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Parking position input assignment." },
+    { "key": "SideStandPosition", "group": "Vehicle Inputs", "label": "Side Stand Position", "type": "enum", "options": ["Disabled", "Input 1", "Input 2", "Input 3"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Side-stand input assignment." },
+    { "key": "GripPosition", "group": "Vehicle Inputs", "label": "Grip Position", "type": "enum", "options": ["Disabled", "Input 1", "Input 2", "Input 3"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Grip / handle input assignment." },
+    { "key": "AntiTheftPosition", "group": "Vehicle Inputs", "label": "Anti-Theft Position", "type": "enum", "options": ["Disabled", "Input 1", "Input 2", "Input 3"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Anti-theft input assignment." },
+    { "key": "SPAOutputSignal", "group": "Vehicle Inputs", "label": "SPA Output Signal", "type": "enum", "options": ["Disabled", "Low", "High", "Pulse"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "SPA / auxiliary output mode." },
+
+    { "key": "TireWidth", "group": "Wheel and Mileage", "label": "Tire Width", "type": "number", "unit": "mm", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Tire width used for dash calculations." },
+    { "key": "TireFlatnessRatio", "group": "Wheel and Mileage", "label": "Tire Flatness Ratio", "type": "number", "unit": "%", "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Tire aspect ratio / flatness." },
+    { "key": "WheelRadius", "group": "Wheel and Mileage", "label": "Wheel Radius", "type": "number", "unit": "mm", "byteOffset": null, "byteLength": 1, "registerAddress": 208, "packetByteOffset": 5, "offsetStatus": "apk-confirmed-register", "description": "Wheel radius for speed and distance calculation. Official app reads this from register 208 `arg[7]`." },
+    { "key": "TransmissionRatio", "group": "Wheel and Mileage", "label": "Transmission Ratio", "type": "number", "byteOffset": null, "byteLength": 2, "registerAddress": 208, "packetByteOffset": 8, "offsetStatus": "apk-confirmed-register", "description": "Transmission / reduction ratio. Official app reads this from register 208 `(arg[11]*256 + arg[10])`." },
+    { "key": "MileagePulseMode", "group": "Wheel and Mileage", "label": "Mileage Pulse Mode", "type": "enum", "options": ["Controller", "Wheel Sensor", "One-Line Meter"], "byteOffset": null, "byteLength": null, "offsetStatus": "unknown", "description": "Source of mileage pulse accumulation." },
+    { "key": "MileageCalibration", "group": "Wheel and Mileage", "label": "Mileage Calibration", "type": "number", "unit": "%", "byteOffset": null, "byteLength": 1, "registerAddress": 208, "packetByteOffset": 4, "offsetStatus": "apk-confirmed-register", "description": "Distance calibration factor / wheel ratio. Official app reads this from register 208 `arg[6]`." }
+  ]
+}

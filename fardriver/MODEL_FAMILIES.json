@@ -1,0 +1,63 @@
+{
+  "schema": "motormed.fardriver.manual.v1",
+  "name": "FarDriver Model Families",
+  "description": "Hardware, extension, and special-code metadata extracted from the public FarDriver parameter manual. This is discovery metadata, not a byte-accurate flash schema.",
+  "sources": [
+    "https://github.com/jackhumbert/fardriver-controllers",
+    "https://raw.githubusercontent.com/jackhumbert/fardriver-controllers/main/MANUAL.md",
+    "/Users/snooplsm/onyxaf/website/CANBUS.md"
+  ],
+  "protocol": {
+    "bleServiceUuid": "0000FFE0-0000-1000-8000-00805F9B34FB",
+    "bleCharacteristicUuid": "0000FFEC-0000-1000-8000-00805F9B34FB",
+    "identifyByName": ["YUANQU", "CONTROL"],
+    "primaryConfigBytes": 384,
+    "secondaryConfigBytes": 312,
+    "newProtocolConfigRegisters": { "start": 56, "end": 87, "payloadBytesPerFrame": 12 }
+  },
+  "hardwareVersions": [
+    { "code": "7", "description": "Older controller generation, relatively fixed function set" },
+    { "code": "G", "description": "Earlier single-function generation" },
+    { "code": "A", "description": "Newer single-function generation" },
+    { "code": "B", "description": "Newer single-function generation, likely F103 based" },
+    { "code": "H", "description": "Universal 30P controller with richer parameters" },
+    { "code": "L", "description": "Dual-band 30P controller with richer parameters" },
+    { "code": "R", "description": "National standard dual-band controller with rich parameters" },
+    { "code": "Q", "description": "National standard controller with rich parameters" },
+    { "code": "I", "description": "Isolated 30P controller with rich parameters" },
+    { "code": "J", "description": "Isolated dual-band 30P controller" },
+    { "code": "X", "description": "Rotary-change 30P controller" },
+    { "code": "U", "description": "Isolated rotary 30P controller" },
+    { "code": "M", "description": "2024 universal 30P controller" },
+    { "code": "N", "description": "2024 universal dual-band 30P controller" }
+  ],
+  "extensionCodes": [
+    { "code": "J", "description": "Built-in differential encoder variant" },
+    { "code": "Q", "description": "External differential encoder variant" },
+    { "code": "H", "description": "Built-in absolute encoder variant" },
+    { "code": "P", "description": "External absolute encoder variant" }
+  ],
+  "specialCodeBits": [
+    { "value": 0, "description": "Hall vector starting velocity base" },
+    { "value": 8, "description": "8x PID program" },
+    { "value": 16, "description": "Deep weak-magnet program" },
+    { "value": 32, "description": "Brake inspection" },
+    { "value": 64, "description": "Old controller" },
+    { "value": 128, "description": "No Bluetooth / RS485 communication program" },
+    { "value": 256, "description": "Customized for series 8" },
+    { "value": 512, "description": "Customized for series 12" },
+    { "value": 1024, "description": "Customized for series 16" },
+    { "value": 2048, "description": "Isolated program" },
+    { "value": 4096, "description": "120M high-speed version" }
+  ],
+  "configWriteAddresses": [
+    { "address": 0, "length": 384, "name": "Primary config flash" },
+    { "address": 1, "length": 312, "name": "Secondary config flash" },
+    { "address": 34, "length": 6, "name": "Date/time" },
+    { "address": 160, "length": 2, "name": "System command register" },
+    { "address": 171, "length": 2, "name": "Old password" },
+    { "address": 172, "length": 2, "name": "New password" },
+    { "address": 173, "length": 14, "name": "Secondary phone number" },
+    { "address": 174, "length": 14, "name": "Primary phone number" }
+  ]
+}
