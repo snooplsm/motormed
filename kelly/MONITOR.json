@@ -1,0 +1,173 @@
+[
+  {
+    "address": 0,
+    "name": "TPS Pedel",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 255,
+    "description": "Throttle ADC, Range 0–255 corresponds to 0–5V"
+  },
+  {
+    "address": 1,
+    "name": "Brake Pedel",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 255,
+    "description": "Brake ADC, Range 0–255 corresponds to 0–5V"
+  },
+  {
+    "address": 2,
+    "name": "Brake Switch",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Brake switch status, Range 0 or 1"
+  },
+  {
+    "address": 3,
+    "name": "Foot Switch",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Throttle safety switch status, Range 0 or 1"
+  },
+  {
+    "address": 4,
+    "name": "Forward Switch",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Forward switch status, Range 0 or 1"
+  },
+  {
+    "address": 5,
+    "name": "Reversed",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Reverse switch status, Range 0 or 1"
+  },
+  {
+    "address": 6,
+    "name": "Hall A",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Hall A encoder, Range 0 or 1"
+  },
+  {
+    "address": 7,
+    "name": "Hall B",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Hall B encoder, Range 0 or 1"
+  },
+  {
+    "address": 8,
+    "name": "Hall C",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Hall C, Range 0 or 1"
+  },
+  {
+    "address": 9,
+    "name": "B+  Volt",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 200,
+    "description": "Actual battery voltage, Range 0–200V"
+  },
+  {
+    "address": 10,
+    "name": "Motor Temp",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 150,
+    "description": "Motor temperature, Range 0–150°C"
+  },
+  {
+    "address": 11,
+    "name": "Controller Temp",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 150,
+    "description": "Controller temperature, Range 0–150°C"
+  },
+  {
+    "address": 12,
+    "name": "Setting Dir",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Target direction: 0 = forward, 1 = reverse"
+  },
+  {
+    "address": 13,
+    "name": "Actual Dir",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Actual direction: 0 = forward, 1 = reverse"
+  },
+  {
+    "address": 14,
+    "name": "Brake Switch2",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Brake switch 2 status, Range 0 or 1"
+  },
+  {
+    "address": 15,
+    "name": "Low Speed",
+    "format": "uo",
+    "byteLength": 1,
+    "min": 0,
+    "max": 2,
+    "description": "Low speed indicator (brake switch 2), Range 0 or 1"
+  },
+  {
+    "address": 16,
+    "name": "Error Status",
+    "format": "h",
+    "byteLength": 2,
+    "min": 0,
+    "max": 65535,
+    "description": "Error status, real-time display"
+  },
+  {
+    "address": 18,
+    "name": "Motor Speed",
+    "format": "uo",
+    "byteLength": 2,
+    "min": 0,
+    "max": 10000,
+    "description": "Motor speed, Range 0–10000"
+  },
+  {
+    "address": 20,
+    "name": "Phase Current",
+    "format": "uo",
+    "byteLength": 2,
+    "min": 0,
+    "max": 800,
+    "description": "Phase current RMS value, Range 0–800"
+  }
+]
